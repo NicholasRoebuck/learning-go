@@ -1,0 +1,32 @@
+package main
+
+import "fmt"
+
+var  middleName = "paul"
+
+func main(){
+	fmt.Println("Hello Go Variables!")
+
+	// var age int
+	// var name string = "Nick"
+	// var name1 = "Nicholas"
+
+	// counter := 100
+	// name2 := "Nicky"
+	// isOn := true 
+	middleName = "Ricky"
+
+	// Default values:
+	// Numeric types: 0
+	// Boolean types: false
+	// String types: ""
+	// Pointers, slices, maps, funtions, and structs: nil
+
+	printname()
+}
+
+func printname(){
+	firstName := "nicholas"
+	lastName := "roebuck"
+	fmt.Println(firstName + " " + middleName+ " " + lastName)
+}
