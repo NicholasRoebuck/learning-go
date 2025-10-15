@@ -1,0 +1,50 @@
+package main
+
+import "fmt"
+
+func main() {
+	// // simple iteration over a range
+	// for i:=1; i<=5; i++{
+	// 	fmt.Println(i)
+	// }
+
+	// //iterate over a slice
+	// numbers := [] int {1,2,3,4,5,6}
+	// for index, value := range numbers {
+	// 	fmt.Printf("Index: %d, Range: %d\n", index, value)
+	// } 
+
+	// // using break and continue
+	// for i:=1;i<=10;i++{
+	// 	if i%2 == 0 {
+	// 		continue
+	// 	}
+	// 	fmt.Printf("Odd number: %d\n", i)
+	// 	if i == 5 {
+	// 		break
+	// 	}
+	// }
+
+	// rows := 5
+
+	// // outer loop
+	// for i:=1;i<=rows;i++{
+	// 	// inner loop for blank spaces before stars
+	// 	for j:=1;j<=rows-i;j++{
+	// 		fmt.Print(" ")
+	// 	}
+	// 	// inner loop for stars
+	// 	for k:=1;k<=2*i-1;k++{
+	// 		fmt.Print("*")
+	// 	}
+	// 	fmt.Println() // moves to the next line
+	// }
+
+	number := 10
+	for i := range number {
+		i++
+		fmt.Println(i)
+	}
+	fmt.Println("We have a lift off!")
+
+}
